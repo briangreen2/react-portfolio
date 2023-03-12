@@ -1,11 +1,10 @@
 import React from 'react'
 import './portfolio.css'
+import HOOB from '../../assets/hoobank-image.png'
 import WEATHER from '../../assets/Weather-app-image.png'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
+
 
 const Portfolio = () => {
   return (
@@ -20,18 +19,18 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/briangreen2/Weather_Website" className='btn' target='_blank'>Github</a>
-          <a href="https://briangreen2.github.io/Weather_Website/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/briangreen2/Weather_Website" className='btn' target='_blank'>Github</a>
+            <a href="https://briangreen2.github.io/Weather_Website/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={HOOB} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/briangreen2" className='btn' target='_blank'>Weather App</a>
-          <a href="https://briangreen2.github.io/Weather_Website/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/briangreen2/react-hoobank" className='btn' target='_blank'>Github</a>
+            <a href="https://react-hoobank-dun.vercel.app/#home" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -40,13 +39,13 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/briangreen2" className='btn' target='_blank'>Weather App</a>
-          <a href="https://briangreen2.github.io/Weather_Website/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/briangreen2" className='btn' target='_blank'>Weather App</a>
+            <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>
     </section>
-    )
+  )
 }
 
 export default Portfolio
