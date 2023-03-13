@@ -17,7 +17,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={WEATHER} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Built a weather app using the OpenWeatherMap API and React</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/briangreen2/Weather_Website" className='btn' target='_blank'>Github</a>
             <a href="https://briangreen2.github.io/Weather_Website/" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -27,7 +27,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={HOOB} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Fully Responsive Website with Modern UI/UX in React JS with Tailwind</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/briangreen2/react-hoobank" className='btn' target='_blank'>Github</a>
             <a href="https://react-hoobank-dun.vercel.app/#home" className='btn btn-primary' target='_blank'>Live Demo</a>
