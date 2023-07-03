@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/professional-pic.jpeg'
+import ME from '../../assets/Linkedin-pic.jpeg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { FaFolderOpen } from 'react-icons/fa'
