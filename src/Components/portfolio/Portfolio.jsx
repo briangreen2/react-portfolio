@@ -3,6 +3,7 @@ import './portfolio.css'
 import HOOB from '../../assets/hoobank-image.png'
 import WEATHER from '../../assets/Weather-app-image.png'
 import RESTAURANT from '../../assets/restaurant-pic.png'
+import DRUM from '../../assets/Drum-kit-image.png'
 
 
 const Portfolio = () => {
@@ -40,6 +41,16 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/briangreen2/Restaurant-website" className='btn' target='_blank'>Github</a>
             <a href="https://restaurant-website-jet-two.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={DRUM} alt="" />
+          </div>
+          <h3>Drum Kit Project</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/briangreen2/Drum_kit" className='btn' target='_blank'>Github</a>
+            <a href="https://briangreen2.github.io/Drum_kit/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>
